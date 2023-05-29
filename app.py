@@ -3,7 +3,6 @@ class Application:
 
     def __init__(self):
         self.content = []
-        self.add_Todo = Element('add_Todo')
         self.todo_out = Element('todo_out')
         self.text_input = Element('text_input')
         self.del_index = Element('del_index')
