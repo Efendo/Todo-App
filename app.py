@@ -29,6 +29,8 @@ class Application:
             del self.content[index - 1]
             self.todo_out.element.innerHTML = self.CycleTodos()
         except IndexError:
-                
+            self.error_log.element.innerHTML = f"<pre class='py-error'> Element {index} does not exist </pre>"
+        except ValueError:
+            self.error_log.element.innerHTML = f"<pre class='py-error'> Please enter a valid number </pre>"
 
-            self.error_log.element.innerHTML = f"<pre class='py-error'> Element {index} does not exist</pre>"
+        
