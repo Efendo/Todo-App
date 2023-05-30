@@ -1,14 +1,14 @@
 # Todo-App
 This is a simple todo app using Python and HTML
 
-![Screenshot](https://github.com/Efendo/Todo-App/blob/master/todo-app-screenshot.png)
+![Desktop](https://github.com/Efendo/Todo-App/blob/master/todo-app-screenshot.png)
+![Mobile](https://github.com/Efendo/Todo-App/blob/master/todo-app-screenshot-two.png)
 
 Link 👇
 
 [Todo App](https://efendo.github.io/Todo-App)
 
 ## what is the code behind this?
-It uses Pyscript and TailwindCSS.
 
 ### Python Backend source code:
 ````
