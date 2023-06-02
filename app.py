@@ -4,10 +4,7 @@ import ast
 class Application:
 
     def __init__(self):
-        if window.localStorage.getItem('content') == "['None']":
-            self.content = []
-        else:
-            self.content =  ast.literal_eval(window.localStorage.getItem('content'))# This is the Todo list
+        self.content =  ast.literal_eval(window.localStorage.getItem('content'))# This is the Todo list
         self.todo_out = Element('todo_out') # This is a div element which displays the Todo list
         self.text_input = Element('text_input') # This is the text field for adding todo to the list
         self.del_index = Element('del_index') # This is the number field to get the ID of the item to Delete
